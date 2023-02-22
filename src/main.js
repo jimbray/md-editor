@@ -14,6 +14,9 @@ import 'codemirror/addon/selection/active-line'
 import 'codemirror/addon/hint/show-hint.js'
 import 'codemirror/addon/hint/css-hint.js'
 import router from './router'
+import { inject } from '@vercel/analytics';
+
+inject();
 
 Vue.use(ElementUI)
 
